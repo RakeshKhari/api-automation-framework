@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="API Automation Suite">
+
+    <test name="API Tests">
+
+        <classes>
+            <class name="tests.TC01_Get_All_Posts"/>
+            <class name="tests.TC02_Get_Single_Post"/>
+            <class name="tests.TC03_Validate_Response_Time"/>
+            <class name="tests.TC04_Create_Post"/>
+            <class name="tests.TC05_Validate_Header"/>
+            <class name="tests.TC06_Update_Post"/>
+            <class name="tests.TC07_Patch_Post"/>
+            <class name="tests.TC08_Delete_Post"/>
+            <class name="tests.TC09_Validate_JSON_Body"/>
+            <class name="tests.TC10_Invalid_Endpoint"/>
+            <class name="tests.TC11_Validate_Response_Body"/>
+            <class name="tests.TC12_Validate_Header"/>
+            <class name="tests.DataDrivenCSVTest"/>
+            <class name="tests.DataDrivenJsonTest"/>
+        </classes>
+
+    </test>
+
+</suite>
